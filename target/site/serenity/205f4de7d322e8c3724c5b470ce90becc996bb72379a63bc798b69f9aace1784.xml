@@ -1,0 +1,28 @@
+<acceptance-test-run title="Navigating to Omgeo ALERT page" name="Navigating to Omgeo ALERT page" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="5919" timestamp="2016-03-14T14:01:42.289-05:00" session-id="ef5bd84e-26f8-4303-997f-83ccf51c7ced">
+  <user-story id="Omgeo_Navigation" name="Omgeo  navigation" path="stories/about_omgeo/Omgeo_Navigation.story"/>
+  <tags>
+    <tag name="About omgeo" type="feature"/>
+    <tag name="About omgeo/Verifying navigation" type="story"/>
+    <tag name="Omgeo  navigation" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="1818">
+    <screenshots>
+      <screenshot image="f52a65b3d6b5acae16318793dceff951.png"/>
+      <screenshot image="4bada04abae49b36ceb688cbdd065673.png"/>
+    </screenshots>
+    <description>Given the user is on the Omgeo home page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2799">
+    <screenshots>
+      <screenshot image="a88281c194e7053174cd551962eacf85.png"/>
+      <screenshot image="b430650a4c7087db2cfa96ab28573a81.png"/>
+    </screenshots>
+    <description>When the user selects ALERT from the dropdown under Find a Product section</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1277">
+    <screenshots>
+      <screenshot image="b430650a4c7087db2cfa96ab28573a81.png"/>
+    </screenshots>
+    <description>Then the user shall be routed to Omgeo Alert Page</description>
+  </test-step>
+</acceptance-test-run>

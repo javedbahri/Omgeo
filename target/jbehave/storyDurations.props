@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Mon Mar 14 14:01:57 CDT 2016
+threads=1
+total=25000
+stories/about_omgeo/Omgeo_Navigation.story=25000
+threadAverage=25000

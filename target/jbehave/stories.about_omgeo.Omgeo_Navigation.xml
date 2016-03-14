@@ -1,0 +1,17 @@
+<story path="stories/about_omgeo/Omgeo_Navigation.story" title="Verifying Navigation">
+<scenario keyword="Scenario:" title="Navigating to Omgeo About page">
+<step outcome="successful">Given the user is on the Omgeo home page</step>
+<step outcome="successful">When the user clicks on the About tab</step>
+<step outcome="successful">Then the user shall be routed to the About content page</step>
+</scenario>
+<scenario keyword="Scenario:" title="Navigating to Omgeo ALERT page">
+<step outcome="successful">Given the user is on the Omgeo home page</step>
+<step outcome="successful">When the user selects ALERT from the dropdown under Find a Product section</step>
+<step outcome="successful">Then the user shall be routed to Omgeo Alert Page</step>
+</scenario>
+<scenario keyword="Scenario:" title="Navigating to LeaderShip Team page">
+<step outcome="successful">Given the user is on the Omgeo home page</step>
+<step outcome="successful">When the user clicks on the Leadership Team link</step>
+<step outcome="successful">Then the user shall be routed to Omgeo Leadership Team page</step>
+</scenario>
+</story>

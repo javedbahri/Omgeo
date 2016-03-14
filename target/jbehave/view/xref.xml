@@ -1,0 +1,40 @@
+<xref>
+  <whenMade>1457982119479</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter>-ignore</metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description>Verifying Navigation</description>
+      <narrative></narrative>
+      <name>Omgeo_Navigation.story</name>
+      <path>stories/about_omgeo/Omgeo_Navigation.story</path>
+      <html>stories.about_omgeo.Omgeo_Navigation.html</html>
+      <meta></meta>
+      <scenarios>Scenario:Navigating to Omgeo About page
+Given the user is on the Omgeo home page
+When the user clicks on the About tab
+Then the user shall be routed to the About content page
+
+
+Scenario:Navigating to Omgeo ALERT page
+Given the user is on the Omgeo home page
+When the user selects ALERT from the dropdown under Find a Product section
+Then the user shall be routed to Omgeo Alert Page
+
+
+Scenario:Navigating to LeaderShip Team page
+Given the user is on the Omgeo home page
+When the user clicks on the Leadership Team link
+Then the user shall be routed to Omgeo Leadership Team page
+
+
+</scenarios>
+      <passed>true</passed>
+      <pending>false</pending>
+      <started>1457982091449</started>
+      <duration>25135</duration>
+    </story>
+  </stories>
+  <stepMatches/>
+</xref>

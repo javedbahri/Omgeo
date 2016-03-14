@@ -1,0 +1,26 @@
+<acceptance-test-run title="Navigating to Omgeo About page" name="Navigating to Omgeo About page" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="10691" timestamp="2016-03-14T14:01:31.546-05:00" session-id="ef5bd84e-26f8-4303-997f-83ccf51c7ced">
+  <user-story id="Omgeo_Navigation" name="Omgeo  navigation" path="stories/about_omgeo/Omgeo_Navigation.story"/>
+  <tags>
+    <tag name="About omgeo" type="feature"/>
+    <tag name="About omgeo/Verifying navigation" type="story"/>
+    <tag name="Omgeo  navigation" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="7548">
+    <screenshots>
+      <screenshot image="9dc9709b07d141445a4d1e8c73f455a3.png"/>
+    </screenshots>
+    <description>Given the user is on the Omgeo home page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2074">
+    <screenshots>
+      <screenshot image="f52a65b3d6b5acae16318793dceff951.png"/>
+    </screenshots>
+    <description>When the user clicks on the About tab</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="944">
+    <screenshots>
+      <screenshot image="f52a65b3d6b5acae16318793dceff951.png"/>
+    </screenshots>
+    <description>Then the user shall be routed to the About content page</description>
+  </test-step>
+</acceptance-test-run>

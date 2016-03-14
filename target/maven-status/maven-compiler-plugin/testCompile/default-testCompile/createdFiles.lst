@@ -1,0 +1,3 @@
+com\omgeo\bdd\AcceptanceTestSuite.class
+com\omgeo\bdd\pages\OmgeoPage.class
+com\omgeo\bdd\steps\NavigationSteps.class

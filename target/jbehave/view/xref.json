@@ -1,0 +1,22 @@
+{"xref": {
+  "whenMade": 1457982119479,
+  "createdBy": "JBehave",
+  "metaFilter": "-ignore",
+  "meta": [],
+  "stories": [
+    {
+      "description": "Verifying Navigation",
+      "narrative": "",
+      "name": "Omgeo_Navigation.story",
+      "path": "stories/about_omgeo/Omgeo_Navigation.story",
+      "html": "stories.about_omgeo.Omgeo_Navigation.html",
+      "meta": "",
+      "scenarios": "Scenario:Navigating to Omgeo About page\nGiven the user is on the Omgeo home page\nWhen the user clicks on the About tab\nThen the user shall be routed to the About content page\n\n\nScenario:Navigating to Omgeo ALERT page\nGiven the user is on the Omgeo home page\nWhen the user selects ALERT from the dropdown under Find a Product section\nThen the user shall be routed to Omgeo Alert Page\n\n\nScenario:Navigating to LeaderShip Team page\nGiven the user is on the Omgeo home page\nWhen the user clicks on the Leadership Team link\nThen the user shall be routed to Omgeo Leadership Team page\n\n\n",
+      "passed": true,
+      "pending": false,
+      "started": 1457982091449,
+      "duration": 25135
+    }
+  ],
+  "stepMatches": []
+}}

@@ -1,0 +1,27 @@
+<acceptance-test-run title="Navigating to LeaderShip Team page" name="Navigating to LeaderShip Team page" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="8374" timestamp="2016-03-14T14:01:48.209-05:00" session-id="ef5bd84e-26f8-4303-997f-83ccf51c7ced">
+  <user-story id="Omgeo_Navigation" name="Omgeo  navigation" path="stories/about_omgeo/Omgeo_Navigation.story"/>
+  <tags>
+    <tag name="About omgeo" type="feature"/>
+    <tag name="About omgeo/Verifying navigation" type="story"/>
+    <tag name="Omgeo  navigation" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="1463">
+    <screenshots>
+      <screenshot image="b430650a4c7087db2cfa96ab28573a81.png"/>
+      <screenshot image="3b62d21c46fe3d017d65bfd1719ef040.png"/>
+    </screenshots>
+    <description>Given the user is on the Omgeo home page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="5682">
+    <screenshots>
+      <screenshot image="42406d6c6b55dbb0bd46665dd61e3a6f.png"/>
+    </screenshots>
+    <description>When the user clicks on the Leadership Team link</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1215">
+    <screenshots>
+      <screenshot image="42406d6c6b55dbb0bd46665dd61e3a6f.png"/>
+    </screenshots>
+    <description>Then the user shall be routed to Omgeo Leadership Team page</description>
+  </test-step>
+</acceptance-test-run>
